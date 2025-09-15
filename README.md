@@ -2,7 +2,7 @@
 
 ## Overview
 This repository documents my work extending a popular mod editor to support loading compressed mod files.
-The actual source code and implementation remain **private** to respect creator rights.
+The actual source code and implementation remain **private** to respect creator rights. The developers didn't intend for assets to be obtainable from mods.
 
 Instead, this repo highlights:
 - **Problem**: The editor did not natively support mod files, only project files
@@ -26,3 +26,13 @@ Planned showcase:
 - Binary I/O, custom serialization, reverse-engineering
 - Dependency graph linking, asset integrity handling
 - Extending an existing large C# codebase
+
+## FAQ
+**Q: Can I try the loader?**  
+A: The implementation is private; the videos show the workflow. I’m happy to discuss the approach in interviews.
+
+**Q: Why no code?**  
+A: Sharing internals could enable misuse and violate community expectations. This portfolio focuses on **design, scope, and results**.
+
+**Q: Is this a fork or a plug-in?**  
+A: It’s a **built-in feature** integrated directly into the editor’s codebase (not an external extension).
