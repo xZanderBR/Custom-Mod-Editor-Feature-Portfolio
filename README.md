@@ -9,10 +9,8 @@ Instead, this repo highlights:
 - **Solution**: I engineered a loader that imports mod files, maps their resources, and links them into the project
 - **Outcome**: Fully functional integration with proper resource linking and project metadata population
 
-## Demo (videos coming soon)
-Planned showcase:
-- Original editor workflow (no mod import)
-- Modified editor workflow (import, edit, save, and launch a project from a mod)
+## Demo
+[![Youtube Video](https://github.com/user-attachments/assets/558a6086-721a-4122-9dad-dd3ce8fe3fd5)](https://www.youtube.com/watch?v=Hw3yRm_RkQg)
 
 ## Key Contributions
 - Implemented **resource loader** for mod files (Bundles, EBX, RES, Chunks)
